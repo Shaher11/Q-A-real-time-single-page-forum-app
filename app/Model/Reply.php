@@ -19,7 +19,7 @@ class Reply extends Model
 
     public function like(){
 
-        return $this->belongsTo(like::class);
+        return $this->hasMany(Like::class);
     }
 
 }
