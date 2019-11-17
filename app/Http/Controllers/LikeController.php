@@ -20,6 +20,7 @@ class LikeController extends Controller
 
     }
 
+
     public function unLikeIt(Reply $reply){
 
 //        $reply->like()->where(['user_id',auth()->id()])->first()->delete();
